@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<app-root></app-root>
+<enose-root></enose-root>
 
 <script type="text/javascript" src="dist/inline.bundle.js"></script>
 <script type="text/javascript" src="dist/polyfills.bundle.js"></script>
