@@ -14,6 +14,7 @@
 
 <script type="text/javascript" src="dist/inline.bundle.js"></script>
 <script type="text/javascript" src="dist/polyfills.bundle.js"></script>
+<script type="text/javascript" src="dist/scripts.bundle.js"></script>
 <script type="text/javascript" src="dist/styles.bundle.js"></script>
 <script type="text/javascript" src="dist/vendor.bundle.js"></script>
 <script type="text/javascript" src="dist/main.bundle.js"></script>
