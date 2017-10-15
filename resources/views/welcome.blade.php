@@ -8,16 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    @prod
+    @ngStyle(styles)
+    @endprod
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <deo-root></deo-root>
 
-<script type="text/javascript" src="dist/inline.bundle.js"></script>
-<script type="text/javascript" src="dist/polyfills.bundle.js"></script>
-<script type="text/javascript" src="dist/scripts.bundle.js"></script>
-<script type="text/javascript" src="dist/styles.bundle.js"></script>
-<script type="text/javascript" src="dist/vendor.bundle.js"></script>
-<script type="text/javascript" src="dist/main.bundle.js"></script>
+@ngScript(inline)
+@ngScript(polyfills)
+
+@local
+@ngScript(styles)
+@endlocal
+
+@ngScript(scripts)
+@ngScript(vendor)
+@ngScript(main)
 
 </body>
 </html>
