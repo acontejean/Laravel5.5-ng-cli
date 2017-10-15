@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Enose new</title>
+    <title>Banpho's Deodorant</title>
     <base href="/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<enose-root></enose-root>
+<deo-root></deo-root>
 
 <script type="text/javascript" src="dist/inline.bundle.js"></script>
 <script type="text/javascript" src="dist/polyfills.bundle.js"></script>

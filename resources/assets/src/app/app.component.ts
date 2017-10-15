@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'enose-root',
+  selector: 'deo-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
